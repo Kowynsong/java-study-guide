@@ -34,6 +34,7 @@ The Heap contains:
 3. **Abstraction** - Showing only essential parts and hiding the implementation details in order to only provide what the object does and not how the object handles operations. 
 4. **Encapsulation** - Binding variables and methods under a single entity that is hidden to other classes and only accessible within methods of its own class. 
 5. **Inheritance** - Allows classes to inherit properties and methods of other classes. Parent classes can extend attributes and behavior to child classes. ex: parent class animal with properties like name, weight and methods like eat(), sleep() can be extended with a child class dog that can inherit those features and extended further to have properties like specific breed of dogs or specific behaviors like bark(). 
+
 3 types of inheritance: single inheritance, multi-level inheritance, hierarchical inheritance
 6. **Polymorphism** - Performing the same task (a method) in different ways. ex: add() vs add(int a, int b); drawPolygon() to create a square, rectangle, or triangle with different ways.
 
