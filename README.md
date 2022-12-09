@@ -27,13 +27,15 @@ The Heap contains:
 1. **Objects** - When an object is instantiated, memory is allocated in the heap to fit the object. 
 2. **Instance variables** - A variable declared inside a class but not inside a method. This includes primitive instance variables and object reference variables. Depending on the primitive, java will allocate that much space on the heap to fit the primitive instance variable. However for object reference variables, memory is only allocated for the reference variable itself since you can declare a reference variable and not assign it to an object. Once the object the reference variable is referencing is actually created, then memory is allocated for that object. 
 
-## Object Orientation
+## OOP Concepts
 
-There are three key features in object-oriented programming:
-
-1. **Encapsulation**
-2. **Inheritance**
-3. **Polymorphism**
+1. **Object** - Some entity that has properties and/or tasks performed. ex: human object can hold properties like name, height, age, etc and do tasks such as walk(), run(), read(), etc. Objects are an instance of a class
+2. **Class** - A blueprint that objects follow; provides the properties and tasks that an object can hold and do. Classes cannot communicate with each other; instead objects should be created through an instance of the class so that objects can communicate.
+3. **Abstraction** - Showing only essential parts and hiding the implementation details in order to only provide what the object does and not how the object handles operations. 
+4. **Encapsulation** - Binding variables and methods under a single entity that is hidden to other classes and only accessible within methods of its own class. 
+5. **Inheritance** - Allows classes to inherit properties and methods of other classes. Parent classes can extend attributes and behavior to child classes. ex: parent class animal with properties like name, weight and methods like eat(), sleep() can be extended with a child class dog that can inherit those features and extended further to have properties like specific breed of dogs or specific behaviors like bark(). 
+3 types of inheritance: single inheritance, multi-level inheritance, hierarchical inheritance
+6. **Polymorphism** - Performing the same task (a method) in different ways. ex: add() vs add(int a, int b); drawPolygon() to create a square, rectangle, or triangle with different ways.
 
 ## Interface vs Implementation Inheritance
 
